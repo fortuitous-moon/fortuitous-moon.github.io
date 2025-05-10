@@ -1,7 +1,21 @@
+:root {
+	color-scheme: light dark;
+}
+
+* {
+	color: light-dark(darkslategray, ghostwhite);
+    background-color: light-dark(ghostwhite, darkslategray);
+}
+
+
+
 H1 {
 	margin-left: 100px;
 }
+
+
 P {
   margin-left: 100px;
   width: 500px;
+  line-height: 1.5em;
 }
